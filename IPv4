@@ -36,4 +36,11 @@ echo "* Installing Dependencies"
 
 # Update package list and install dependencies
 
-apt install wget -y && wget https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64 && chmod +x playit-linux-amd64 && apt install dropbear -y && dropbear -p 22 && adduser 
+apt install wget -y && wget https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64 && chmod +x playit-linux-amd64 && apt install dropbear -y && dropbear -p 22
+
+# addusers
+
+echo "* now type adduser yourname and password and enter all information and last type -y"
+
+# Active the IPv4
+echo "*./playit-linux-amd64"
