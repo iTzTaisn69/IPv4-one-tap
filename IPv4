@@ -37,7 +37,3 @@ echo "* Installing Dependencies"
 # Update package list and install dependencies
 
 apt install wget -y && wget https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64 && chmod +x playit-linux-amd64 && apt install dropbear -y && dropbear -p 22 && adduser 
-
-echo_message "* Installed Dependencies"
-
-echo_message "* Installing Files"
